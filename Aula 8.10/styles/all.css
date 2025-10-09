@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --CorCorpo: rgb(9, 12, 14);
+
+    --CorHeader: black;
+
+    --Branco: rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--CorCorpo);
+}
+
+header{
+    background-color: var(--CorHeader);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+#ladoEsquerdoHeader, #ladoDireitoHeader{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: var(--Branco);
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+#capaInicial{
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgb(151, 122, 26);
+}
+
+
+#jogoGrande{
+    background-image: url(../imgs/mortalkombat.jpg);
+    background-size: cover;
+    background-position: center, top;
+    width: 80%;
+    height: 490px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#jogoPequeno{
+    width: 20%;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.joguinhos{
+    gap: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 20%;
+    color: var(--Branco);
+}
+
+.joguinhos img{
+    height: 80px;
+    border-radius: 5px;
+}
