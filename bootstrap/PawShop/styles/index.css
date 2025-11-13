@@ -28,6 +28,7 @@ nav a{
     text-decoration: none;
     color: var(--preto);
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #nome{
@@ -36,6 +37,7 @@ nav a{
     justify-content: center;
     width: 100%;
     margin: 90px 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #texto{
@@ -44,6 +46,7 @@ nav a{
     justify-content: center;
     width: 100%;
     margin: 90px 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -53,6 +56,7 @@ nav a{
     justify-content: center;
     width: 100%;
     margin: 90px 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #animais{
@@ -86,9 +90,11 @@ nav a{
 }
 .sub h1 {
     color: var(--laranja);
+    font-family:'Times New Roman', Times, serif
 }
 .sub h2 {
     color: var(--verde);
+    font-family:'Times New Roman', Times, serif
 }
 
 .sub button{
@@ -96,4 +102,37 @@ nav a{
     padding: 5px 10px;
     border: transparent;
     border-radius: 5px;
+}
+
+#adote{
+    display: flex;
+    color: var(--rosa);
+    justify-content: center;
+    width: 100%;
+    margin: 90px 0px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#sla{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#sla div{
+    width: 50%;
+}
+
+#slaEsquerdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inserir{
+
+    color: var(--azul);
+    flex-direction: column;
+    display: flex;
+    text-align: center;
 }
